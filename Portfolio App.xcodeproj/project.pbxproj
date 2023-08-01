@@ -78,26 +78,82 @@
 		EF3509CB2A78E8BD00B7F79F /* Portfolio App */ = {
 			isa = PBXGroup;
 			children = (
+				EFBB98F52A799BE800DB51A9 /* Extensions */,
+				EFBB98F42A799BD500DB51A9 /* Utils */,
+				EFBB98F32A799BC400DB51A9 /* Model */,
+				EFBB98EF2A799B1700DB51A9 /* Presentation */,
 				EF3509CC2A78E8BD00B7F79F /* AppDelegate.swift */,
 				EF3509CE2A78E8BD00B7F79F /* SceneDelegate.swift */,
-				EFBB98D72A79047800DB51A9 /* CircleImageView.swift */,
-				EFBB98DD2A7924A200DB51A9 /* UserDescriptionCell.swift */,
-				EFBB98DF2A7928AF00DB51A9 /* User.swift */,
-				EFBB98E12A7929E200DB51A9 /* PortfolioPresenter.swift */,
-				EFBB98E32A792C2900DB51A9 /* PortfolioView.swift */,
-				EF3509E02A78E98600B7F79F /* PortfolioViewController.swift */,
-				EFBB98ED2A79898200DB51A9 /* AutoSizedCollectionView.swift */,
-				EFBB98E52A792DF400DB51A9 /* PortfolioAdapter.swift */,
-				EFBB98E72A793A6B00DB51A9 /* SkillsListCell.swift */,
-				EFBB98E92A7949AD00DB51A9 /* SkillCell.swift */,
-				EFBB98DB2A7914F500DB51A9 /* HeaderSectionCell.swift */,
-				EF3509E22A78EF1900B7F79F /* UserInfoCell.swift */,
-				EF3509E42A78F2F300B7F79F /* UILabelExtension.swift */,
 				EF3509D52A78E8C100B7F79F /* Assets.xcassets */,
 				EF3509D72A78E8C100B7F79F /* LaunchScreen.storyboard */,
 				EF3509DA2A78E8C100B7F79F /* Info.plist */,
 			);
 			path = "Portfolio App";
+			sourceTree = "<group>";
+		};
+		EFBB98EF2A799B1700DB51A9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB98F12A799B6A00DB51A9 /* View */,
+				EFBB98F02A799B4D00DB51A9 /* Presenter */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EFBB98F02A799B4D00DB51A9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB98E12A7929E200DB51A9 /* PortfolioPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EFBB98F12A799B6A00DB51A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB98E52A792DF400DB51A9 /* PortfolioAdapter.swift */,
+				EF3509E02A78E98600B7F79F /* PortfolioViewController.swift */,
+				EFBB98F22A799B8900DB51A9 /* Cells */,
+				EFBB98E32A792C2900DB51A9 /* PortfolioView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFBB98F22A799B8900DB51A9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB98DB2A7914F500DB51A9 /* HeaderSectionCell.swift */,
+				EFBB98DD2A7924A200DB51A9 /* UserDescriptionCell.swift */,
+				EFBB98E72A793A6B00DB51A9 /* SkillsListCell.swift */,
+				EF3509E22A78EF1900B7F79F /* UserInfoCell.swift */,
+				EFBB98E92A7949AD00DB51A9 /* SkillCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EFBB98F32A799BC400DB51A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB98DF2A7928AF00DB51A9 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFBB98F42A799BD500DB51A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB98ED2A79898200DB51A9 /* AutoSizedCollectionView.swift */,
+				EFBB98D72A79047800DB51A9 /* CircleImageView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EFBB98F52A799BE800DB51A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF3509E42A78F2F300B7F79F /* UILabelExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
